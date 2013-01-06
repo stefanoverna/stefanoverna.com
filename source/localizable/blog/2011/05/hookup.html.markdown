@@ -1,0 +1,7 @@
+---
+date: 2011/05/02
+title: hookup
+external_link: https://github.com/tpope/hookup
+---
+
+Il solito Tim Pope con una nuova gemma che sfrutta gli hook Git per chiamare automaticamente `bundle install` e `rake db:migrate` non appena ce n'è bisogno.

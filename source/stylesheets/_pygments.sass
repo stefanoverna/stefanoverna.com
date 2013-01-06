@@ -1,0 +1,36 @@
+code
+  :font-family "Lucida Console", Monaco, Courier, "Courier New", monospace
+  :font-size 0.95em
+  :background #ddd
+  :padding 1px 3px
+  word-wrap: break-word
+
+.highlight
+  +adjust-font-size-to(14px, 1)
+  +margin-leader(0.5, 14px)
+  +margin-trailer(0.5, 14px)
+  padding: rhythm(0.5, 14px)
+  :background-color #222
+  :font-family "Lucida Console", Monaco, Courier, "Courier New", monospace
+  :color #F0F0F0
+  :overflow auto
+
+  .lineno
+    color: #555
+    border-right: 1px solid #333
+    padding-right: 10px
+
+  @import "railscasts"
+
+figure
+  +margin-leader(0.5)
+  +margin-trailer(0.5)
+
+  figcaption
+    +adjust-font-size-to(14px, 1)
+    :font-family "Lucida Console", Monaco, Courier, "Courier New", monospace
+    :color #888
+    :text-align right
+
+  .highlight
+    margin: 0px

@@ -1,0 +1,60 @@
+header.site-header
+  +clearfix
+  +padding-leader(1)
+  +trailing-border(1px, 1)
+  border-color: $orange
+
+  navigation
+    text-align: right
+    width: 150px
+    margin-right: 40px
+    float: left
+
+  .photo
+    width: 150px
+    margin-right: 40px
+    float: left
+
+  section.about
+    text-align: justify
+    +adjust-font-size-to(18px, 1)
+    +main-content
+
+    footer
+      +padding-leader(0.5, 18px)
+      +padding-trailer(0.5, 18px)
+      height: rhythm(1, 18px)
+      overflow: hidden
+
+      a.rss
+        font: 11px/18px 'Helvetica Neue', Arial, sans-serif
+        color: #333
+        +border-radius(3px)
+        border: 1px solid #ccc
+        font-weight: bold
+        display: inline-block
+        padding: 0px 3px
+        padding-left: 17px
+        +background(linear-gradient(white,#DEDEDE))
+        position: relative
+        vertical-align: top
+        margin-right: 20px
+
+        &::before
+          content: ""
+          width: 11px
+          height: 11px
+          position: absolute
+          top: 3px
+          left: 3px
+          background: image-url("rss_icon.png")
+
+        &:hover
+          text-decoration: none
+          border-color: #bbb
+
+        &:active
+          background: #DEDEDE
+
+
+

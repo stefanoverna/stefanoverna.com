@@ -1,0 +1,37 @@
+@import "logo"
+@import "feed"
+
+.sidebar
+  :width 200px
+  :margin-right 40px
+  :float left
+
+  .header
+    :padding-bottom 20px
+
+    h1
+      +heading-font
+      :font-size 23px
+      :line-height 26px
+
+      a
+        :color #444
+
+    .subtitle
+      +heading-font
+      :font-size 16px
+      :line-height 20px
+      :color #999
+      :text-transform lowercase
+
+  .navigation
+    +heading-font
+    :font-size 20px
+
+    li
+      :display block
+
+      &.feed-readers
+        :margin-top 40px
+
+

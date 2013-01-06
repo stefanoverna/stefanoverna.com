@@ -1,0 +1,15 @@
+doctype 5
+html
+  head= partial "common/head"
+  body.single-article
+    .wrap
+      header.site-header= partial "common/about"
+      section.page-content.page-single-page
+        article
+          sidebar
+            .inner
+          .right
+            header
+              h1= data.page.title
+            .content.hyphenate= yield
+    = partial "common/footer"

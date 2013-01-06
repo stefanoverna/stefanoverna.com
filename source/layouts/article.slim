@@ -1,0 +1,12 @@
+doctype 5
+html
+  head= partial "common/head"
+  body.single-article
+    .wrap
+      header.site-header= partial "common/about"
+      section.page-content.page-single-article
+        = partial "common/article", locals: { article: current_article }
+        #disqus_thread
+
+    = partial "common/footer"
+

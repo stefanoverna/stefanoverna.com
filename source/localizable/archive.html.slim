@@ -1,0 +1,24 @@
+/* ------- */
+/* title: Archivio */
+/* layout: page */
+/* ------- */
+
+/* - content_for :head do */
+/*   title= "Archivio - Stefano Verna" */
+
+/* sidebar */
+/*   .inner */
+/*     h6 Ricerca nell'Archivio */
+
+/*     input type="search" id="query" placeholder="Ricerca" */
+/*     p.info &rarr; Premi Invio per iniziare la ricerca. */
+
+/* .right */
+/*   h1 Archivio per Mese */
+
+/*   - articles_by_month.each_pair do |month, articles| */
+/*     h2= month */
+/*     ul */
+/*       - articles.each do |article| */
+/*         li */
+/*           = link_to article.title, article.url */
