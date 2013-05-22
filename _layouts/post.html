@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header>
+    <p class="meta">{{ page.date | date_to_string }}</p>
+    <h1 class="title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+  </header>
+
+  <div class="content">
+    {% if page.external_link %}
+      <div class="external">
+        <a href="{{ page.external_link }}">{{ page.external_link }} &rarr;</a>
+      </div>
+    {% endif %}
+
+    {{ content }}
+  </div>
+
+  <footer>
+    <p class="twitter">
+      <a class="twitter-share-button" data-align="left" data-lang="it" data-related="steffoz" data-text="Pattern in Rails" data-url="{{ site.url }}{{ page.url }}" data-via="steffoz" href="https://twitter.com/share">Tweet</a>
+    </p>
+  </footer>
+
+  <div id="disqus_thread">
+  </div>
+</article>
+

@@ -1,11 +1,9 @@
-source :rubygems
+source 'https://rubygems.org'
 
-gem "middleman", "~>3.0.6"
-gem "middleman-blog"
-gem "middleman-deploy"
-gem "coffee-script"
-gem "slim"
-gem "redcarpet"
-gem "pygments.rb"
-gem "builder"
-gem "rack-codehighlighter", :git => "https://github.com/wbzyl/rack-codehighlighter.git"
+gem 'sass'
+gem 'jekyll'
+gem 'nokogiri'
+gem 'rb-fsevent'
+gem 'bourbon'
+gem 'neat'
+

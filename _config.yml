@@ -1,0 +1,6 @@
+name: Stefano Verna
+description: Rails, TDD, iOS, etc.
+pygments: true
+permalink: blog/:year/:month/:title.html
+url: http://stefanoverna.com
+
