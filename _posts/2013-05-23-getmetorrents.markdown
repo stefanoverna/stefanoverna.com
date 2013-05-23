@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Get me torrents
+title: Get me torrents!
 date: 2013-05-23 09:06
 tags:
 ---
@@ -15,8 +15,8 @@ Con conseguente bombing di visitatori contemporanei:
 
 ![Analytics](/data/getmetorrents-analytics.png)
 
-E' stata una giornata interessante. Non ero ovviamente preparare a gestire un
-carico del genere (l'intero sito era hostato su una VPS da 7$/mese) ma in qualche 
+E' stata una giornata interessante. Non ero ovviamente preparato a gestire un
+carico del genere (l'intero sito era hostato su una VPS da 7$/mese) ma in qualche
 modo siamo riusciti a scalare bene le richieste delegando a macchine secondarie
 improvvisate la valanga di job in arrivo.
 
@@ -28,11 +28,13 @@ contorno](https://github.com/stefanoverna/getmetorrents-ruby), che sfrutta
 in-progress delle ricerche.
 
 Ora il sito si è trasformato in una estensione Chrome, che ha il duplice
-vantaggio di evitare blocchi IP ed esternalizzare direttamente sui client 
-il lavoro di scraping. Lo scraping dei siti di terze parti avviene attraverso 
-delle semplici chiamate AJAX (che all'interno di estensioni non hanno limiti 
-cross-site). A posteriori, sicuramente sarebbe stato meglio a lavorare alla
-versione client-side da subito, ma l'intuizione è arrivata troppo tardi.
+vantaggio di evitare blocchi IP ed esternalizzare direttamente sui client
+il lavoro di scraping, annullando i costi di mantenimento.
+
+Lo scraping dei siti di terze parti avviene attraverso semplici chiamate AJAX
+(che all'interno di estensioni non hanno limiti cross-site). A posteriori,
+sicuramente sarebbe stato meglio presentare la versione client-side da subito,
+ma l'intuizione è arrivata troppo tardi.
 
 Tra non molto spero di trovare il tempo di pubblicare anche il sorgente
 dell'estensione, nel frattempo è sufficiente scaricarla e fare un po' di
