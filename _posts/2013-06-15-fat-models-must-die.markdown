@@ -5,18 +5,18 @@ date: 2013-06-15 09:06
 tags:
 ---
 
-Non avevo accennato della cosa in questo blog, ma io e [Ju
-Liu](http://t.co/QEsKuWKhpD) abbiamo partecipato — per la prima volta in veste di
-speaker — al RubyDay, tenutosi a Milano ieri!
+Non avevo accennato della cosa in questo blog, ma io e il prode [Ju
+Liu](http://t.co/QEsKuWKhpD) abbiamo partecipato al RubyDay, tenutosi ieri a
+Milano, per la prima volta in veste di speaker!
 
 E' stata una esperienza fantastica, il talk sembra essere piaciuto ed ha
 provocato una serie di domande molto interessanti ed azzeccate, segno che
-evidentemente il tema del trovare soluzioni nuove al design interno alle proprie 
+evidentemente il tema del trovare soluzioni nuove al design interno alle proprie
 applicazioni Rails è sentito da molti.
 
-Non ho sinceramente idea quando (e soprattutto *se*) una versione video del 
-talk sarà disponibile, nel mentre, per chi non ce l'ha fatta a passare da 
-Milano, ecco le slide con note, spero che il messaggio possa comunque passare 
+Non ho sinceramente idea quando (e soprattutto *se*) una versione video del
+talk sarà disponibile... nel mentre, per chi non ce l'ha fatta a passare da
+Milano, ecco le slide con note, spero che il messaggio possa comunque passare
 in qualche modo :)
 
 ![Rubyday 2013 — Fat models, skinny controller talk](/data/rubyday-2013/1.jpg)

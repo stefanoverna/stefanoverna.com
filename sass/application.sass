@@ -69,10 +69,10 @@ h1, h2, h3, h4, h5, h6
     font-size: 2em
     margin-bottom: 0.5em
 
-  .description, .contacts
-    margin-bottom: 0.5em
+  .description
+    margin-bottom: 1em
 
-  .description, .contacts, .contacts a
+  .contacts, .contacts a
     color: $gray-color
     font-style: italic
 
@@ -80,8 +80,7 @@ h1, h2, h3, h4, h5, h6
     display: inline-block
 
     &:after
-      content: "—"
-      padding: 0 0.2em
+      content: " \00b7 "
 
     &:last-child:after
       display: none
@@ -137,8 +136,7 @@ h1, h2, h3, h4, h5, h6
     .meta
       color: $light-gray-color
       font-style: italic
-      font-size: 0.9em
-      margin-bottom: 0.5em
+      margin-bottom: 0.8em
 
       a
         color: $light-gray-color
@@ -153,7 +151,7 @@ h1, h2, h3, h4, h5, h6
   .content
     outline: 0
     word-wrap: break-word
-    font-size: 1em
+    font-size: 1.1em
     line-height: 1.6
 
     p, ul, ol, blockquote, pre, .highlight, .important, .external
@@ -215,6 +213,12 @@ h1, h2, h3, h4, h5, h6
 
     img
       max-width: 100%
+
+    em, i
+      font-style: italic
+
+    strong, b
+      font-weight: bold
 
   footer
     margin-top: 3em

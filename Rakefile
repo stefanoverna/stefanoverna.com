@@ -6,6 +6,6 @@ end
 desc 'Deploy site'
 task :deploy do
   system('jekyll build')
-  system('rsync -avz -e ssh _site/ stefanoverna.com:/home/128423/users/.home/domains/stefanoverna.com/html')
+  system('rsync -avz --no-p --no-g --chmod=ugo=rwX -e ssh _site/ stefanoverna.com:/home/128423/users/.home/domains/stefanoverna.com/html')
 end
 

@@ -5,11 +5,9 @@ date: 2013-01-06 13:02 +01:00
 tags:
 ---
 
-{% excerpt %}
 Negli ultimi mesi sembrano essersi finalmente smosse le acque nel panorama delle pratiche per rendere le proprie applicazioni Rails più mantenibili e modulari. [Avevamo già parlato della questione qualche tempo fa](http://stefanoverna.com/blog/2012/06/oo-rails-e-thin-models-quando-rails-non-basta.html), dunque ci torniamo volentieri.
 
 Tradizione vuole che le opinioni nel mondo Ruby vengano spesso [espresse piuttosto vivacemente dai sui principali esponenti](http://rubydramas.com), ed anche questa volta non ci sono state eccezioni. 
-{% endexcerpt %}
 
 Ecco solo una piccola parte della valanga di articoli usciti:
 
