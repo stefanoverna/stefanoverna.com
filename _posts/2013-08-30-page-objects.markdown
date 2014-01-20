@@ -6,10 +6,10 @@ tags:
 ---
 
 Il pattern *Page object* ha come obiettivo quello di mettere a disposizione
-del sistema oggetti che rappresentino un mapping 1:1 con una specifiche
-pagine (o collezioni di pagine) presenti nella nostra UI.
+del sistema oggetti che rappresentino mapping 1:1 con una specifica
+pagina (o collezioni di pagine) presenti nella nostra UI.
 
-E' un pattern che presenta diverse similitudini con il ben più conosciuto
+È un pattern che presenta diverse similitudini con il ben più conosciuto
 *Active record*; Così come con oggetti *Active record* centralizziamo
 tutte le operazioni di persistenza relative ad una riga del nostro DB,
 in un *page object* accentriamo tutte le possibili interazioni eseguibili
@@ -35,7 +35,7 @@ end
 Si ritorna dunque al principio *DRY*, tanto caro al mondo Rails. Se disponiamo
 di oggetti di questo tipo, i nostri test saranno più semplici da modificare se
 si dovesse presentare una modifica nella strutturazione dell'HTML o delle 
-routes (cosa piuttosto frequente).
+routes (cosa piuttosto frequente, di solito).
 
 Con gemme come [SitePrism](https://github.com/natritmeyer/site_prism) si può accedere
 ad una serie di funzionalità aggiuntive come una maggiore integrazione con
@@ -84,7 +84,7 @@ Ovviamente nulla vieta di usare banalissimi moduli Ruby per ricreare ex-novo
 il concetto di sezioni illustrato qui sopra.
 
 Prima di introdurre un nuovo layer di astrazione e complessità nel nostro codice
-è sempre bene pensarci bene. Detto questo, quando si inizia a sentire "attrito"
+è sempre bene pensarci. Detto questo, quando si inizia a sentire "attrito"
 durante la gestione e il mantenimento dei nostri test di integrazione, i page
 objects sono ottimi per:
 
