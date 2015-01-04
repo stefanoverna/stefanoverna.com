@@ -1,0 +1,243 @@
+@import bourbon
+@import reset
+@import syntax
+
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic|Montserrat:400,700)
+
+$heading-font: 'Montserrat'
+$body-font: 'Noto Serif'
+$code-font: Monaco,'Courier New','Courier',monospace
+
+$mobile-break: 500px
+$tablet-break: 1000px
+$desktop-break: 1666px
+
+$black-color: #333332
+$gray-color: #666665
+$light-gray-color: #B3B3B1
+$ultra-light-gray-color: #f2f2f0
+$border-color: #dededc
+
+=mobile
+  @media screen and (max-width: $mobile-break)
+    @content
+
+=only-tablet
+  @media screen and (min-width: $mobile-break + 1px) and (max-width: $tablet-break)
+    @content
+
+=up-to-tablet
+  @media screen and (max-width: $tablet-break)
+    @content
+
+=only-desktop
+  @media screen and (min-width: $tablet-break + 1px)
+    @content
+
+=only-large-desktop
+  @media screen and (min-width: $desktop-break + 1px)
+    @content
+
+body
+  font-family: $body-font
+  color: $black-color
+  background-color: white
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  font-size: 1em
+  line-height: 1.1
+  word-wrap: break-word
+
+  +mobile
+    font-size: 0.9em
+
+a
+  color: $black-color
+  text-decoration: underline
+
+h1, h2, h3, h4, h5, h6
+  font-family: $heading-font
+  font-weight: bold
+
+.cover
+  text-align: center
+
+  a
+    text-decoration: none
+
+  .title
+    font-size: 2em
+    margin-bottom: 0.5em
+
+  .description
+    margin-bottom: 1em
+
+  .contacts, .contacts a
+    color: $gray-color
+    font-style: italic
+
+  .contacts li
+    display: inline-block
+
+    &:after
+      content: " \00b7 "
+
+    &:last-child:after
+      display: none
+
+    a:hover
+      text-decoration: underline
+
+  +up-to-tablet
+    padding: 5%
+
+  +only-desktop
+    position: fixed
+    bottom: 0
+    left: 0
+    top: 0
+    z-index: 100
+    max-width: 500px
+    width: 30%
+    border-right: 1px solid $border-color
+
+    > .inner
+      position: absolute
+      bottom: 0
+      right: 0
+      left: 0
+      padding: 50px 10%
+
+.wrapper
+  +only-desktop
+    margin-left: 30%
+
+    .wrapper-inner
+      padding: 50px 85px
+      max-width: 810px
+      +box-sizing(border-box)
+
+      +only-large-desktop
+        padding-left: 110px
+        max-width: 910px
+
+.post
+  +up-to-tablet
+    padding: 2.4em 5%
+    max-width: 700px
+    margin: 0 auto
+
+  +only-desktop
+    padding: 2.5em 0
+
+  header
+    margin-bottom: 2em
+
+    .meta
+      color: $light-gray-color
+      font-style: italic
+      margin-bottom: 0.8em
+
+      a
+        color: $light-gray-color
+        text-decoration: none
+
+    .title
+      font-size: 2.5em
+
+      a
+        text-decoration: none
+
+  .content
+    outline: 0
+    word-wrap: break-word
+    font-size: 1.1em
+    line-height: 1.6
+
+    p, ul, ol, blockquote, pre, .highlight, .important, .external
+      margin-bottom: 2.5em
+
+      +mobile
+        margin-bottom: 2em
+
+      &:last-child
+        margin-bottom: 0
+
+    code, pre
+      font-family: $code-font
+      font-size: 0.9em
+
+    pre
+      padding: 1em
+      background-color: $black-color
+
+      code
+        background-color: transparent
+
+    .important
+      padding: 0.8em
+      background-color: #e6dcbf
+
+    code
+      padding: 0.1em
+      background-color: $ultra-light-gray-color
+
+    blockquote
+      padding: 0.5em 0 0.5em 1.3em
+      border-left: 10px solid $border-color
+      font-style: italic
+
+      p, ul, ol
+        margin-bottom: 1.5em
+
+    ul, ol
+      list-style-type: none
+
+    li
+      margin-left: 1.2em
+      margin-bottom: 0.1em
+
+    ul li
+      list-style-type: square
+
+    ol li
+      list-style-type: decimal
+
+    h2
+      font-size: 1.8em
+      margin-bottom: 0.5em
+
+    h3
+      font-size: 1.5em
+      margin-bottom: 0.3em
+
+    img
+      max-width: 100%
+
+    em, i
+      font-style: italic
+
+    strong, b
+      font-weight: bold
+
+  footer
+    margin-top: 3em
+    padding: 2em 0
+    border-top: 1px solid $border-color
+
+.post-excerpt
+  border-bottom: 1px solid $border-color
+
+  header
+    margin-bottom: 1.2em
+
+    .title
+      font-size: 2em
+
+    .meta
+      margin-bottom: 0
+      margin-top: 0.3em
+
+  .content
+    font-size: 1em
+

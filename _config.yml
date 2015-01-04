@@ -1,6 +1,0 @@
-name: Stefano Verna
-description: Agile practices, Ruby/Rails and TDD/BDD tips
-pygments: true
-permalink: blog/:year/:month/:title.html
-url: http://stefanoverna.com
-

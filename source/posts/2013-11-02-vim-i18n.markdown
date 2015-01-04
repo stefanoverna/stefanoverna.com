@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Rails i18n più semplice con vim-i18n"
+tags:
+---
+
+Mi sono totalmente dimenticato di riportarlo qui, ma tipo 7 mesi fa ho
+rilasciato un plugin per vim pensato per rendere più semplice e meno tediosa la
+traduzione delle proprie applicazioni Rails:
+[vim-i18n](https://github.com/stefanoverna/vim-i18n).
+
+Questa settimana il plugin sembra essere stato notato da Thoughtbot, che [l'ha
+citato in un articolo sul loro blog](http://robots.thoughtbot.com/better-tests-through-internationalization/).
+
+Come funziona? Semplice: selezioni il testo da tradurre, premi `<leader>z`, il
+plugin ti chiede la chiave di traduzione. A questo punto il testo viene spostato
+nel file Yaml di tua scelta, rimpiazzandolo con una chiamata ad `I18n.t`.
+
+Non è rocket science, ma è sicuramente meglio del classico file switching 
+compulsivo.
+

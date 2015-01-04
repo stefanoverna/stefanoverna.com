@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <%= partial 'head' %>
+  <body>
+    <%= partial 'aside' %>
+    <section class="wrapper">
+      <div class="wrapper-inner">
+        <article class="post">
+          <header>
+            <p class="meta"><%= I18n.localize(current_article.date, format: '%e %B %Y') %></p>
+            <h1 class="title"><%= link_to current_article.title, current_article %></a></h1>
+          </header>
+
+          <div class="content">
+            <% if current_article.data.external_link %>
+              <div class="external">
+                <a href="<%= current_article.data.external_link %>"><%= current_article.data.external_link %> &rarr;</a>
+              </div>
+            <% end %>
+
+            <%= current_article.body %>
+          </div>
+
+          <footer>
+            <p class="twitter">
+              <a class="twitter-share-button" data-align="left" data-lang="it" data-related="steffoz" data-text="Pattern in Rails" data-url="{{ site.url }}{{ page.url }}" data-via="steffoz" href="https://twitter.com/share">Tweet</a>
+            </p>
+          </footer>
+
+          <div id="disqus_thread"></div>
+        </article>
+      </div>
+    </section>
+    <%= partial 'js' %>
+  </body>
+</html>
+

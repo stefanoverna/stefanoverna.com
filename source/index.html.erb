@@ -1,0 +1,19 @@
+---
+title: Stefano Verna
+---
+
+<div class="posts">
+  <% page_articles.each_with_index do |post, i| %>
+    <article class="post post-excerpt">
+      <header>
+        <h3 class="title"><%= link_to post.title, post %></a></h3>
+        <p class="meta"><%= I18n.localize(post.date, format: '%e %B %Y') %> — <a href="<%= post.url %>#disqus_thread">Commenti</a></h3>
+
+      </header>
+      <div class="content">
+        <%= post.summary %>
+      </div>
+    </article>
+  <% end %>
+</ul>
+
