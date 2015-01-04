@@ -18,9 +18,9 @@ talk sarà disponibile... nel mentre, per chi non ce l'ha fatta a passare da
 Milano, ecco le slide con note, spero che il messaggio possa comunque passare
 in qualche modo :)
 
-![Rubyday 2013 — Fat models, skinny controller talk](/data/rubyday-2013/1.jpg)
-![Rubyday 2013 — Fat models, skinny controller talk](/data/rubyday-2013/2.jpg)
-![Rubyday 2013 — Fat models, skinny controller talk](/data/rubyday-2013/3.jpg)
+![Rubyday 2013 — Fat models, skinny controller talk](/images/blog/rubyday-2013/1.jpg)
+![Rubyday 2013 — Fat models, skinny controller talk](/images/blog/rubyday-2013/2.jpg)
+![Rubyday 2013 — Fat models, skinny controller talk](/images/blog/rubyday-2013/3.jpg)
 
 <script async="async" class="speakerdeck-embed" data-id="12634790b7c201301af332815dcd90ab" data-ratio="1.10822510822511" src="//speakerdeck.com/assets/embed.js"></script>
 

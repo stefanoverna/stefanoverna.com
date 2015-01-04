@@ -37,7 +37,7 @@ un `font-size` di 15px (invece che 16px come consigliato) per il contenuto
 principale della pagina (il corpo del post). Sul perchè di questa scelta
 ci torneremo nel prossimo post.
 
-![La scala tipografica](/data/vertical_rythm/typographicscale.gif)
+![La scala tipografica](/images/blog/vertical_rythm/typographicscale.gif)
 
 Tutti gli altri `font-size` seguono la medesima scala: nel mio
 caso ho scelto 18px per gli `h3`, 21px per gli `h2` e gli 24px per gli `h1`.

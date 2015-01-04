@@ -11,7 +11,7 @@ di ciò di cui stiamo parlando.
 Nel mondo web, l'unità base di spazio verticale è rappresentata dalla regola CSS
 `line-height`.
 
-![Line height](/data/vertical_rythm/font-size-line-height.png)
+![Line height](/images/blog/vertical_rythm/font-size-line-height.png)
 
 Una `line-height` rimane costante nella pagina fino a quando non
 intervengono cambi di `font-size`, `margin`, `padding` o `border`.

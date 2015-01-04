@@ -27,8 +27,8 @@ L'impianto della trattazione si basa su due evidenze provabili empiricamente da 
 Chris Pearson si è spinto oltre, cercando di legare numericamente queste
 grandezze, facendo uso del famoso rapporto aureo:
 
-![Line height](/data/vertical_rythm/optimal-line-height.gif)
-![Line width](/data/vertical_rythm/optimal-line-width.gif)
+![Line height](/images/blog/vertical_rythm/optimal-line-height.gif)
+![Line width](/images/blog/vertical_rythm/optimal-line-width.gif)
 
 Quindi, è sufficiente scegliere il `font-size` di riferimento, per
 esempio `16px`, e `line-height` e `line-width` verranno da sè:

@@ -8,11 +8,11 @@ Sebbene la stasi di questo posto, diverse cose divertenti sono successe da
 gennaio, tra cui il side-project [Get me torrents!](http://www.getmetorrents.com),
 che dopo 3 ore dalla messa in onda si è ritrovato sulla front page di Reddit:
 
-![Reddit](/data/getmetorrents-reddit.png)
+![Reddit](/images/blog/getmetorrents-reddit.png)
 
 Con conseguente bombing di visitatori contemporanei:
 
-![Analytics](/data/getmetorrents-analytics.png)
+![Analytics](/images/blog/getmetorrents-analytics.png)
 
 E' stata una giornata interessante. Non ero ovviamente preparato a gestire un
 carico del genere (l'intero sito era hostato su una VPS da 7$/mese) ma in qualche

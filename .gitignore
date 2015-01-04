@@ -1,5 +1,3 @@
-_site
-css
-.bundle
-bin/stubs
+build
+.env
 

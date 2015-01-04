@@ -10,7 +10,7 @@ Finding a good place to position a big table like a calendar within your Wordpre
 
 One of the calendar solution that I came out with and that I'm particulary proud of is the one I built inside the freshly launched [Graham Watson for President](http://www.watsonforpresident.eu "Graham Watson President of European Parliament") website.
 
-<a href="/data/ical_like_calendar/demo.html">View the online Demo!</a>
+<a href="/images/blog/ical_like_calendar/demo.html">View the online Demo!</a>
 
 I wanted it to be similar to the iPhone Calendar application (or, if you want, to the little calendar on the left bottom corner in iCal). And I also wanted to keep the code as little and sweet as possible (we don't like maintenance, do we?).
 
@@ -262,7 +262,7 @@ This is the CSS code used to style the popup div:
 
 Please note how nice the box-shadow CSS property is when applied to the popup... unfortunately, this CSS3 property is still only implemented in WebKit browsers (Safari, Google Chrome), but more of them are about to support it.
 
-<a href="/data/ical_like_calendar/package.zip">Download the source files!</a>
+<a href="/images/blog/ical_like_calendar/package.zip">Download the source files!</a>
 
 And... that's it. Simple and sweet, as we wanted. Obviously, you'll have to properly configure your preferred Wordpress plugin to output a code like the one I showed you, but that's the boring part of the lesson and I'll skip it :) Instead, let me just add a note...
 
