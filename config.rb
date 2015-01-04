@@ -15,7 +15,7 @@ set :markdown, fenced_code_blocks: true, smartypants: true
 
 activate :blog do |blog|
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
-  blog.permalink = "blog/{year}/{month}/{day}/{title}.html"
+  blog.permalink = "blog/{year}/{month}/{title}.html"
   blog.summary_generator = Proc.new { |post|
     doc = Nokogiri::HTML(post.body)
     paragraph = doc.at_css("p")
