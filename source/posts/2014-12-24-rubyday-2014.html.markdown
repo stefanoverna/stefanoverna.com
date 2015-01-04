@@ -1,0 +1,34 @@
+---
+layout: post
+title: RubyDay 2014
+---
+
+Dire di essere in ritardo è un eufemismo, ma ci tenevo comunque a lasciare
+traccia su questo blog dei due talk che quest'anno ho proposto al RubyDay, e
+che rappresentano molto bene due le "aree tematiche" che posso dire di aver
+approfondito nel 2014.
+
+### More fun, less pain: a strategy for writing maintainable Rails admin backends
+
+Il primo talk ha raccontato il mio viaggio personale verso una soluzione
+concisa e mantenibile per quanto riguarda la generazione di interfacce di
+amministrazione in Rails. Non certo un talk rivoluzionario, ma tratta sicuramente
+una problematica ricorrente nella vita di ogni sviluppatore web.
+
+[Le slides sono disponibili su SpeakerDeck](https://speakerdeck.com/stefanoverna/more-fun-less-pain-a-strategy-for-writing-maintainable-rails-admin-backends)
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/e9iabDiBHZU" frameborder="0" allowfullscreen></iframe>
+
+### Frontend: riorganizzare (di nuovo) il caos
+
+Il secondo talk si sposta dalla programmazione Ruby per andare a toccare
+invece un argomento tabù per molti rubisti: lo sviluppo frontend. Io ed il [buon
+Matteo](https://twitter.com/spleenteo) abbiamo cercato di introdurre alla [metodologia BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+di scrittura dei fogli di stile, e ad un insieme di tool meno "ruby-centrico"
+e al passo con la direzione che il mondo sta prendendo, composto da Bower,
+Autoprefixer e Grunt/Gulp.
+
+[Le slides sono disponibili su SpeakerDeck](https://speakerdeck.com/stefanoverna/frontend-re-organize-the-chaos)
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/fUJOJY_yVXg" frameborder="0" allowfullscreen></iframe>
+
